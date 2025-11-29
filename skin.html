@@ -57,81 +57,308 @@
         </div>
     </header>
 
-    <section class="page-hero">
+    <!-- Skincare Hero Section -->
+    <section class="skincare-hero">
         <div class="container">
-            <h1>Skincare Essentials</h1>
-            <p>Nourish and protect your skin with our premium skincare collection</p>
+            <div class="hero-content">
+                <h1>Transform Your Skin</h1>
+                <p>Discover the perfect skincare routine with our premium collection</p>
+                <div class="skin-benefits">
+                    <div class="benefit">
+                        <i class="fas fa-leaf"></i>
+                        <span>Natural Ingredients</span>
+                    </div>
+                    <div class="benefit">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Dermatologist Tested</span>
+                    </div>
+                    <div class="benefit">
+                        <i class="fas fa-heart"></i>
+                        <span>Cruelty Free</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
+    <!-- Skin Concerns Section -->
+    <section class="skin-concerns">
+        <div class="container">
+            <h2>Shop by Skin Concern</h2>
+            <div class="concerns-grid">
+                <div class="concern-card">
+                    <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=200&h=200&fit=crop" alt="Anti-Aging">
+                    <h3>Anti-Aging</h3>
+                    <p>Reduce fine lines & wrinkles</p>
+                </div>
+                <div class="concern-card">
+                    <img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=200&h=200&fit=crop" alt="Brightening">
+                    <h3>Brightening</h3>
+                    <p>Even skin tone & glow</p>
+                </div>
+                <div class="concern-card">
+                    <img src="https://images.unsplash.com/photo-1570194065650-d99fb4bedf0a?w=200&h=200&fit=crop" alt="Hydration">
+                    <h3>Hydration</h3>
+                    <p>Deep moisture & nourishment</p>
+                </div>
+                <div class="concern-card">
+                    <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=200&h=200&fit=crop" alt="Acne Care">
+                    <h3>Acne Care</h3>
+                    <p>Clear & prevent breakouts</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Listing -->
     <section class="product-listing">
         <div class="container">
             <div class="filters">
                 <h3>Categories</h3>
                 <ul>
+                    <li><a href="#" class="active">All Products</a></li>
                     <li><a href="#">Cleansers</a></li>
-                    <li><a href="#">Moisturizers</a></li>
+                    <li><a href="#">Toners</a></li>
                     <li><a href="#">Serums</a></li>
+                    <li><a href="#">Moisturizers</a></li>
                     <li><a href="#">Sunscreen</a></li>
                     <li><a href="#">Face Masks</a></li>
+                    <li><a href="#">Eye Care</a></li>
+                </ul>
+                
+                <h3>Skin Type</h3>
+                <ul>
+                    <li><a href="#">Normal</a></li>
+                    <li><a href="#">Dry</a></li>
+                    <li><a href="#">Oily</a></li>
+                    <li><a href="#">Combination</a></li>
+                    <li><a href="#">Sensitive</a></li>
+                </ul>
+                
+                <h3>Price Range</h3>
+                <ul>
+                    <li><a href="#">Under ₹500</a></li>
+                    <li><a href="#">₹500 - ₹1000</a></li>
+                    <li><a href="#">₹1000 - ₹2000</a></li>
+                    <li><a href="#">Above ₹2000</a></li>
                 </ul>
             </div>
             
             <div class="products">
+                <div class="products-header">
+                    <h2>Best Selling Skincare Products</h2>
+                    <div class="sort-options">
+                        <select>
+                            <option>Sort by: Popularity</option>
+                            <option>Price: Low to High</option>
+                            <option>Price: High to Low</option>
+                            <option>Customer Rating</option>
+                            <option>Newest First</option>
+                        </select>
+                    </div>
+                </div>
+                
                 <div class="product-grid">
-                    <div class="product-card">
+                    <div class="product-card bestseller">
+                        <div class="product-badges">
+                            <span class="badge bestseller-badge">Bestseller</span>
+                        </div>
                         <div class="product-image">
                             <img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=250&h=250&fit=crop" alt="Vitamin C Serum">
+                            <div class="product-overlay">
+                                <button class="quick-view">Quick View</button>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
                         </div>
                         <div class="product-info">
-                            <h4>Vitamin C Serum</h4>
+                            <h4>Vitamin C Brightening Serum</h4>
                             <p class="brand">Glow Skincare</p>
+                            <div class="product-features">
+                                <span class="feature">Anti-Aging</span>
+                                <span class="feature">Brightening</span>
+                            </div>
                             <div class="rating">
                                 <span class="stars">★★★★★</span>
-                                <span class="rating-count">(89)</span>
+                                <span class="rating-count">(1,234)</span>
                             </div>
                             <div class="price">
-                                <span class="current-price">₹1499</span>
-                                <span class="original-price">₹1999</span>
+                                <span class="current-price">₹1,299</span>
+                                <span class="original-price">₹1,999</span>
+                                <span class="discount">35% OFF</span>
                             </div>
                         </div>
                     </div>
                     
                     <div class="product-card">
+                        <div class="product-badges">
+                            <span class="badge new-badge">New</span>
+                        </div>
                         <div class="product-image">
-                            <img src="https://images.unsplash.com/photo-1570194065650-d99fb4bedf0a?w=250&h=250&fit=crop" alt="Face Cream">
+                            <img src="https://images.unsplash.com/photo-1570194065650-d99fb4bedf0a?w=250&h=250&fit=crop" alt="Hyaluronic Acid Moisturizer">
+                            <div class="product-overlay">
+                                <button class="quick-view">Quick View</button>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
                         </div>
                         <div class="product-info">
-                            <h4>Hydrating Face Cream</h4>
-                            <p class="brand">Skin Essentials</p>
+                            <h4>Hyaluronic Acid Moisturizer</h4>
+                            <p class="brand">Hydra Boost</p>
+                            <div class="product-features">
+                                <span class="feature">Hydrating</span>
+                                <span class="feature">All Skin Types</span>
+                            </div>
                             <div class="rating">
                                 <span class="stars">★★★★☆</span>
-                                <span class="rating-count">(156)</span>
+                                <span class="rating-count">(856)</span>
                             </div>
                             <div class="price">
                                 <span class="current-price">₹899</span>
-                                <span class="original-price">₹1299</span>
+                                <span class="original-price">₹1,299</span>
+                                <span class="discount">31% OFF</span>
                             </div>
                         </div>
                     </div>
                     
                     <div class="product-card">
                         <div class="product-image">
-                            <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=250&h=250&fit=crop" alt="Cleanser">
+                            <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=250&h=250&fit=crop" alt="Gentle Foaming Cleanser">
+                            <div class="product-overlay">
+                                <button class="quick-view">Quick View</button>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
                         </div>
                         <div class="product-info">
-                            <h4>Gentle Cleanser</h4>
+                            <h4>Gentle Foaming Cleanser</h4>
                             <p class="brand">Pure Care</p>
+                            <div class="product-features">
+                                <span class="feature">Gentle</span>
+                                <span class="feature">Sensitive Skin</span>
+                            </div>
                             <div class="rating">
                                 <span class="stars">★★★★★</span>
-                                <span class="rating-count">(234)</span>
+                                <span class="rating-count">(2,134)</span>
                             </div>
                             <div class="price">
-                                <span class="current-price">₹699</span>
-                                <span class="original-price">₹999</span>
+                                <span class="current-price">₹599</span>
+                                <span class="original-price">₹799</span>
+                                <span class="discount">25% OFF</span>
                             </div>
                         </div>
                     </div>
+                    
+                    <div class="product-card">
+                        <div class="product-badges">
+                            <span class="badge organic-badge">Organic</span>
+                        </div>
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=250&h=250&fit=crop" alt="Retinol Night Cream">
+                            <div class="product-overlay">
+                                <button class="quick-view">Quick View</button>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Retinol Night Cream</h4>
+                            <p class="brand">Age Reverse</p>
+                            <div class="product-features">
+                                <span class="feature">Anti-Aging</span>
+                                <span class="feature">Night Care</span>
+                            </div>
+                            <div class="rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-count">(967)</span>
+                            </div>
+                            <div class="price">
+                                <span class="current-price">₹1,799</span>
+                                <span class="original-price">₹2,499</span>
+                                <span class="discount">28% OFF</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=250&h=250&fit=crop" alt="Niacinamide Serum">
+                            <div class="product-overlay">
+                                <button class="quick-view">Quick View</button>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Niacinamide 10% Serum</h4>
+                            <p class="brand">Clear Skin Co.</p>
+                            <div class="product-features">
+                                <span class="feature">Pore Minimizing</span>
+                                <span class="feature">Oil Control</span>
+                            </div>
+                            <div class="rating">
+                                <span class="stars">★★★★☆</span>
+                                <span class="rating-count">(1,456)</span>
+                            </div>
+                            <div class="price">
+                                <span class="current-price">₹799</span>
+                                <span class="original-price">₹1,199</span>
+                                <span class="discount">33% OFF</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=250&h=250&fit=crop" alt="SPF 50 Sunscreen">
+                            <div class="product-overlay">
+                                <button class="quick-view">Quick View</button>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>SPF 50+ Sunscreen</h4>
+                            <p class="brand">Sun Shield</p>
+                            <div class="product-features">
+                                <span class="feature">Broad Spectrum</span>
+                                <span class="feature">Water Resistant</span>
+                            </div>
+                            <div class="rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-count">(2,789)</span>
+                            </div>
+                            <div class="price">
+                                <span class="current-price">₹649</span>
+                                <span class="original-price">₹899</span>
+                                <span class="discount">28% OFF</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skincare Tips Section -->
+    <section class="skincare-tips">
+        <div class="container">
+            <h2>Skincare Tips & Routine</h2>
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <div class="tip-icon">
+                        <i class="fas fa-sun"></i>
+                    </div>
+                    <h3>Morning Routine</h3>
+                    <p>Cleanser → Toner → Serum → Moisturizer → Sunscreen</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">
+                        <i class="fas fa-moon"></i>
+                    </div>
+                    <h3>Night Routine</h3>
+                    <p>Cleanser → Toner → Treatment → Night Cream</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Weekly Care</h3>
+                    <p>Exfoliate 2-3 times & use face masks for deep treatment</p>
                 </div>
             </div>
         </div>
@@ -143,8 +370,45 @@
                 <div class="footer-section">
                     <h3>BeautyHub</h3>
                     <p>Your one-stop destination for all beauty needs</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#">Makeup</a></li>
+                        <li><a href="#">Skincare</a></li>
+                        <li><a href="#">Haircare</a></li>
+                        <li><a href="#">Fragrance</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Customer Care</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Track Order</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
                 </div>
             </div>
+            
             <div class="footer-bottom">
                 <p>&copy; 2024 BeautyHub. All rights reserved.</p>
             </div>
